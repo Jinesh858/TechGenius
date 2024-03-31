@@ -1,0 +1,14 @@
+/* Global.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+  background-color: #6a1b9a; /* Deep purple */
+  margin: 0;
+  padding: 0;
+  font-family:'Poppins', sans-serif;
+}
+
+/*react toatify ka css */
+.toastBody{
+  font-size: 1rem;
+  font-family:'Poppins', sans-serif;
+}

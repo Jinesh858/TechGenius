@@ -1,0 +1,57 @@
+#error-page {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: purple; /* Purple background */
+  }
+  
+  .content {
+    text-align: center;
+    color: #fff; /* White text color */
+  }
+  
+  .header {
+    font-size: 8rem; /* Large font size */
+    margin-bottom: 20px;
+    animation: pulse 1.5s infinite alternate; /* Animation */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  h4 {
+    font-size: 2rem; /* Medium font size */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1rem; /* Medium font size */
+    margin-bottom: 20px;
+  }
+  
+  .btns {
+    margin-top: 20px;
+  }
+  
+  .btns a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1.2rem; /* Medium font size */
+    color: #fff;
+    background-color: #4c0573; /* Darker purple */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btns a:hover {
+    background-color: #2d024d; /* Even darker purple on hover */
+  }
+  

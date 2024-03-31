@@ -1,0 +1,70 @@
+.about-container {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  color: #fff; /* White text */
+  overflow-x: hidden;
+   /* Hide horizontal scrollbar */
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Section heading styles */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffd700; /* Yellow */
+}
+
+/* Individual leader styles */
+.leader {
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  transition: opacity 0.5s ease;
+}
+
+.leader img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover; /* Ensure the image covers the entire container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.leader-details h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #ffd700; /* Yellow */
+}
+
+.leader-details p {
+  color: #ccc; /* Light gray */
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  opacity: 1;
+  visibility: visible;
+  animation: fadeInUp 0.8s forwards;
+}

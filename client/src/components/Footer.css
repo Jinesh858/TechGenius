@@ -1,0 +1,124 @@
+/* Footer.css */
+
+.footer {
+  background-color: #6a0dad; /* Purple background */
+  color: #fff; /* White text for contrast */
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container {
+  width: 80%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  flex: 1;
+}
+
+.footer-logo h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff; /* White text */
+}
+
+.footer-logo p {
+  font-size: 14px;
+  opacity: 0.8;
+  color: #ccc; /* Light gray text */
+}
+
+.footer-links {
+  flex: 1;
+}
+
+.footer-links h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff; /* White text */
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff; /* White text */
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ff8c00; /* Orange text on hover for contrast */
+}
+
+.footer-contact {
+  flex: 1;
+}
+
+.footer-contact h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff; /* White text */
+}
+
+.footer-contact p {
+  margin-bottom: 5px;
+  font-size: 14px;
+  opacity: 0.8;
+  color: #ccc; /* Light gray text */
+}
+
+.footer-bottom {
+  width: 80%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  opacity: 0.8;
+  color: #ccc; /* Light gray text */
+}
+
+.social-icons a {
+  color: #fff; /* White social media icons */
+  font-size: 24px;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff8c00; /* Orange social media icons on hover for contrast */
+  transform: scale(1.2);
+}
+
+/* Footer Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.footer {
+  animation: fadeInUp 1s ease;
+}

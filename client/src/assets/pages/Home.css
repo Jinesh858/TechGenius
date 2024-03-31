@@ -1,0 +1,173 @@
+body {
+  color: #ffffff; /* White text color */
+  line-height: 1.6;
+}
+
+/* Home container */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+/* Hero section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.hero-content {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  animation: fadeInDown 1s ease;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  animation: fadeInUp 1s ease;
+}
+
+.hero-content a {
+  padding: 12px 24px;
+  background-color: #ff6f61; /* Coral button color */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  animation: fadeInUp 1s ease;
+  text-decoration: none;
+}
+
+.hero-content a:hover {
+  background-color: #ff5349; /* Darker coral on hover */
+}
+
+.hero-image {
+  width: 30%;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  animation: fadeInRight 1s ease;
+
+}
+
+/* Features section */
+.features-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.feature {
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #007bff; /* Blue feature background color */
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  animation: fadeInLeft 1s ease;
+}
+
+.feature:last-child {
+  margin-right: 0;
+}
+
+.feature:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.feature h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Testimonial section */
+.testimonial-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  animation: fadeInUp 1s ease;
+}
+
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.testimonial p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.testimonial span {
+  font-size: 1.2rem;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
